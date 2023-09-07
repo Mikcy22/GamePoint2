@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#contador {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+#contenedor-circulos {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.circulo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('cucara.png'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la URL de tu imagen */
+    background-size: cover; /* Esto ajusta la imagen para que cubra todo el círculo */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+/*.resultadoDiv{
+
+}*/
